@@ -1,0 +1,6 @@
+# folders
+test
+node_modules
+
+# files
+gulpfile.js
