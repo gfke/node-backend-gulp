@@ -1,3 +1,7 @@
+# 1.0.1
+
+- Removed unused dependencies.
+
 # 1.0.0
 
 - Initial version
