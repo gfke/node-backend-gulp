@@ -1,0 +1,52 @@
+{
+  "name": "node-backend-gulp",
+  "version": "1.0.0",
+  "description": "Some default gulp tasks for Node.js modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gfke/node-backend-gulp.git"
+  },
+  "keywords": [
+    "gulp",
+    "tasks",
+    "backend"
+  ],
+  "author": {
+    "name": "Michael Raith",
+    "email": "Bruce17@users.noreply.github.com",
+    "url": "https://github.com/Bruce17"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/gfke/node-backend-gulp/issues"
+  },
+  "homepage": "https://github.com/gfke/node-backend-gulp#readme",
+  "dependencies": {
+    "chai": "^3.0.0",
+    "extend": "^3.0.0",
+    "gulp": "^3.9.0",
+    "gulp-apidoc": "^0.1.4",
+    "gulp-jscs": "^1.6.0",
+    "gulp-jscs-stylish": "^1.1.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.3",
+    "gulp-notify": "^2.2.0",
+    "gulp-shell": "^0.4.2",
+    "gulp-spawn-mocha": "^2.2.1",
+    "istanbul-harmony": "^0.3.16",
+    "jshint-stylish": "^2.0.1",
+    "mocha": "^2.2.5",
+    "require-dir": "^0.3.0",
+    "should": "^7.0.2",
+    "sinon": "^1.15.4",
+    "sinon-chai": "^2.8.0"
+  },
+  "devDependencies": {}
+}
