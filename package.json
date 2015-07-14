@@ -29,7 +29,6 @@
   },
   "homepage": "https://github.com/gfke/node-backend-gulp#readme",
   "dependencies": {
-    "chai": "^3.0.0",
     "extend": "^3.0.0",
     "gulp": "^3.9.0",
     "gulp-apidoc": "^0.1.4",
@@ -43,10 +42,7 @@
     "istanbul-harmony": "^0.3.16",
     "jshint-stylish": "^2.0.1",
     "mocha": "^2.2.5",
-    "require-dir": "^0.3.0",
-    "should": "^7.0.2",
-    "sinon": "^1.15.4",
-    "sinon-chai": "^2.8.0"
+    "require-dir": "^0.3.0"
   },
   "devDependencies": {}
 }
