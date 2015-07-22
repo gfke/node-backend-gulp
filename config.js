@@ -25,7 +25,9 @@ var defaultConfig = {
                 webservice: './doc/webservice'
             }
         },
-        gulpConfig: './node_modules/node-backend-gulp/'
+        gulpConfig: './node_modules/node-backend-gulp/',
+        package: './package.json',
+        shrinkwrap: './npm-shrinkwrap.json'
     }
 };
 

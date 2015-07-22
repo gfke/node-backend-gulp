@@ -30,3 +30,8 @@ Some default gulp tasks for Node.js modules
 * **all**: Run all unit tess tasks at once.
 * **watch**: Same tasks as in _all_, but also watch for file changes.
 
+
+### Security
+
+* **nsp**: Contains tasks to check `package.json` and `npm-shrinkwrap.json` against `nsp` (Node Security Project audit).
+* **all**: Run all unit tess tasks at once.
