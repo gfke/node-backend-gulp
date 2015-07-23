@@ -1,3 +1,7 @@
+# 1.0.5
+
+- Updated `npm-shrinkwrap.json`
+
 # 1.0.4
 
 - Added missing module `jsdoc`.

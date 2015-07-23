@@ -1,6 +1,6 @@
 {
   "name": "node-backend-gulp",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Some default gulp tasks for Node.js modules",
   "main": "index.js",
   "scripts": {
