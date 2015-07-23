@@ -1,6 +1,6 @@
 {
   "name": "node-backend-gulp",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "dependencies": {
     "extend": {
       "version": "3.0.0",
@@ -6577,6 +6577,89 @@
               "resolved": "https://registry.npmjs.org/wrappy/-/wrappy-1.0.1.tgz"
             }
           }
+        }
+      }
+    },
+    "jsdoc": {
+      "version": "3.3.2",
+      "from": "jsdoc@*",
+      "resolved": "https://registry.npmjs.org/jsdoc/-/jsdoc-3.3.2.tgz",
+      "dependencies": {
+        "async": {
+          "version": "0.9.2",
+          "from": "async@>=0.9.0 <0.10.0",
+          "resolved": "https://registry.npmjs.org/async/-/async-0.9.2.tgz"
+        },
+        "catharsis": {
+          "version": "0.8.7",
+          "from": "catharsis@>=0.8.7 <0.9.0",
+          "resolved": "https://registry.npmjs.org/catharsis/-/catharsis-0.8.7.tgz",
+          "dependencies": {
+            "underscore-contrib": {
+              "version": "0.3.0",
+              "from": "underscore-contrib@>=0.3.0 <0.4.0",
+              "resolved": "https://registry.npmjs.org/underscore-contrib/-/underscore-contrib-0.3.0.tgz",
+              "dependencies": {
+                "underscore": {
+                  "version": "1.6.0",
+                  "from": "underscore@1.6.0",
+                  "resolved": "https://registry.npmjs.org/underscore/-/underscore-1.6.0.tgz"
+                }
+              }
+            }
+          }
+        },
+        "escape-string-regexp": {
+          "version": "1.0.3",
+          "from": "escape-string-regexp@>=1.0.2 <1.1.0",
+          "resolved": "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.3.tgz"
+        },
+        "esprima": {
+          "version": "1.1.0-dev-harmony",
+          "from": "https://github.com/ariya/esprima/tarball/49a2eccb243f29bd653b11e9419241a9d726af7c",
+          "resolved": "https://github.com/ariya/esprima/tarball/49a2eccb243f29bd653b11e9419241a9d726af7c"
+        },
+        "js2xmlparser": {
+          "version": "0.1.9",
+          "from": "js2xmlparser@>=0.1.7 <0.2.0",
+          "resolved": "https://registry.npmjs.org/js2xmlparser/-/js2xmlparser-0.1.9.tgz"
+        },
+        "marked": {
+          "version": "0.3.3",
+          "from": "marked@>=0.3.2 <0.4.0",
+          "resolved": "https://registry.npmjs.org/marked/-/marked-0.3.3.tgz"
+        },
+        "requizzle": {
+          "version": "0.2.1",
+          "from": "requizzle@>=0.2.0 <0.3.0",
+          "resolved": "https://registry.npmjs.org/requizzle/-/requizzle-0.2.1.tgz",
+          "dependencies": {
+            "underscore": {
+              "version": "1.6.0",
+              "from": "underscore@>=1.6.0 <1.7.0",
+              "resolved": "https://registry.npmjs.org/underscore/-/underscore-1.6.0.tgz"
+            }
+          }
+        },
+        "strip-json-comments": {
+          "version": "1.0.2",
+          "from": "strip-json-comments@>=1.0.2 <1.1.0",
+          "resolved": "https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-1.0.2.tgz"
+        },
+        "taffydb": {
+          "version": "2.6.2",
+          "from": "https://github.com/hegemonic/taffydb/tarball/7d100bcee0e997ee4977e273cdce60bd8933050e",
+          "resolved": "https://github.com/hegemonic/taffydb/tarball/7d100bcee0e997ee4977e273cdce60bd8933050e"
+        },
+        "underscore": {
+          "version": "1.7.0",
+          "from": "underscore@>=1.7.0 <1.8.0",
+          "resolved": "https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz"
+        },
+        "wrench": {
+          "version": "1.5.8",
+          "from": "wrench@>=1.5.8 <1.6.0",
+          "resolved": "https://registry.npmjs.org/wrench/-/wrench-1.5.8.tgz"
         }
       }
     },
