@@ -7,7 +7,7 @@ var gulp  = require('gulp'),
 module.exports = gulp.task('doc-code', function () {
     //NOTICE: native solution over "gulp-jsdoc", because the "gulp-jsdoc" package is not up to date
 
-    var cmd = path.join('node_modules', '.bin', 'jsdoc') +
+    var cmd = path.resolve(global.config.files.gulpConfig + global.config.files.doc.bin.jsdoc) +
         ' --destination ' +
         global.config.files.doc.dest.webservice +
         ' --package package.json ' +
