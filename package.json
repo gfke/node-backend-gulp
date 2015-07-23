@@ -41,6 +41,7 @@
     "gulp-shell": "^0.4.2",
     "gulp-spawn-mocha": "^2.2.1",
     "istanbul-harmony": "^0.3.16",
+    "jsdoc": "^3.3.2",
     "jshint-stylish": "^2.0.1",
     "mocha": "^2.2.5",
     "require-dir": "^0.3.0"
