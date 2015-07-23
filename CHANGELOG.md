@@ -1,3 +1,7 @@
+# 1.0.6
+
+- Updated doc task to use the proper binary file location of `jsdoc`.
+
 # 1.0.5
 
 - Updated `npm-shrinkwrap.json`

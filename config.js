@@ -23,6 +23,9 @@ var defaultConfig = {
             dest: {
                 api: './doc/api',
                 webservice: './doc/webservice'
+            },
+            bin: {
+                jsdoc: 'node_modules/.bin/jsdoc'
             }
         },
         gulpConfig: './node_modules/node-backend-gulp/',
