@@ -1,6 +1,6 @@
 {
   "name": "node-backend-gulp",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "dependencies": {
     "extend": {
       "version": "3.0.0",
