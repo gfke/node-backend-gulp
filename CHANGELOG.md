@@ -1,3 +1,7 @@
+# 1.0.3
+
+- Adjusted task `nsp` to continue execution despite occurring errors during runtime.
+
 # 1.0.2
 
 - Added new gulp task `nsp`, `nsp-package` and `nsp-shrinkwrap` to check the project's packages.
