@@ -12,7 +12,7 @@ var gulp = require('gulp'),
  * @param {function} callbackError   Call this function if the file does not exist.
  */
 var checkIfFileExists = function (fileName, callbackSuccess, callbackError) {
-    fs.stat(fileName, function (err, stat) {
+    fs.stat(fileName, function (err/*, stat*/) {
         if (err) {
             callbackError();
         }
@@ -22,12 +22,25 @@ var checkIfFileExists = function (fileName, callbackSuccess, callbackError) {
     });
 };
 
+/**
+ * Start the package checks using nsp
+ *
+ * @param {string}   fileName Load this file (package.json, npm-shrinkwrap.json) and check their modules/dependencies.
+ * @param {function} callback Execute this callback handler after check is done.
+ */
+var startNspChecks = function (fileName, callback) {
+    nsp({
+        path: fileName,
+        stopOnError: false
+    }, callback);
+};
+
 // Check the project's "package.json"
 module.exports = gulp.task('nsp-package', function (cb) {
     checkIfFileExists(
         global.config.files.package,
         function () {
-            nsp(global.config.files.package, cb);
+            startNspChecks(global.config.files.package, cb);
         },
         cb
     );
@@ -38,7 +51,7 @@ module.exports = gulp.task('nsp-shrinkwrap', function (cb) {
     checkIfFileExists(
         global.config.files.shrinkwrap,
         function () {
-            nsp(global.config.files.shrinkwrap, cb);
+            startNspChecks(global.config.files.shrinkwrap, cb);
         },
         cb
     );
