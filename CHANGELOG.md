@@ -1,3 +1,7 @@
+# 1.0.4
+
+- Added missing module `jsdoc`.
+
 # 1.0.3
 
 - Adjusted task `nsp` to continue execution despite occurring errors during runtime.
