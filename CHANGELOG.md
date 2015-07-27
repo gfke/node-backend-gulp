@@ -1,4 +1,4 @@
-# HEAD
+# 1.0.7
 
 - Added support to create a toc in project's `README.md` file.
 
