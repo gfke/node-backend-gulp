@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/gfke/node-backend-gulp#readme",
   "dependencies": {
+    "doctoc": "^0.14.2",
     "extend": "^3.0.0",
     "gulp": "^3.9.0",
     "gulp-apidoc": "^0.1.4",

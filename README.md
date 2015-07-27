@@ -1,6 +1,20 @@
-# node-backend-gulp
+Node Backend Gulp
+=================
 
 Some default gulp tasks for Node.js modules
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Tasks](#tasks)
+  - [Code Quality](#code-quality)
+  - [Documentation](#documentation)
+  - [Unit Tests](#unit-tests)
+  - [Security](#security)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 ## Tasks
 
@@ -20,6 +34,7 @@ Some default gulp tasks for Node.js modules
 
 * **doc-api**: Generate api documentation of files in folder `source/controllers`. You can overwrite this path via: `global.files.doc.src.api`.
 * **doc-code**: Generate a jsdoc documentation by jsdoc doc comment annotations. You can change the source folder via: `global.config.files.doc.src.webservice`.
+* **doc-markdown-readme**: Update a project's readme file and append a toc to it.
 * **all**: Run tasks _doc-api_ and _doc-code_.
 * **watch**: Same tasks as in _all_, but also watch for file changes.
 
