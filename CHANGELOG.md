@@ -1,3 +1,7 @@
+# 1.0.7
+
+- Added support to create a toc in project's `README.md` file.
+
 # 1.0.6
 
 - Updated doc task to use the proper binary file location of `jsdoc`.
