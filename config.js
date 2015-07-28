@@ -23,7 +23,8 @@ var defaultConfig = {
             },
             dest: {
                 api: './doc/api',
-                webservice: './doc/webservice'
+                webservice: './doc/webservice',
+                gh_classes: './docs-gh/classes/'
             },
             bin: {
                 jsdoc: 'node_modules/.bin/jsdoc',
