@@ -1,4 +1,4 @@
-# HEAD
+# 1.0.8
 
 - Renamed `documentation/doctoc.js` to `documentation/md-doctoc.js`
 - Added new task `documentation/md-jsdoc.js` to convert documentation created by jsdoc to Markdown files for usage in Github.
