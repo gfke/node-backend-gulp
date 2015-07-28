@@ -1,3 +1,8 @@
+# 1.0.8
+
+- Renamed `documentation/doctoc.js` to `documentation/md-doctoc.js`
+- Added new task `documentation/md-jsdoc.js` to convert documentation created by jsdoc to Markdown files for usage in Github.
+
 # 1.0.7
 
 - Added support to create a toc in project's `README.md` file.

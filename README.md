@@ -32,9 +32,13 @@ Some default gulp tasks for Node.js modules
 
 ### Documentation
 
-* **doc-api**: Generate api documentation of files in folder `source/controllers`. You can overwrite this path via: `global.files.doc.src.api`.
-* **doc-code**: Generate a jsdoc documentation by jsdoc doc comment annotations. You can change the source folder via: `global.config.files.doc.src.webservice`.
-* **doc-markdown-readme**: Update a project's readme file and append a toc to it.
+* JSDoc
+** **doc-api**: Generate api documentation of files in folder `source/controllers`. You can overwrite this path via: `global.files.doc.src.api`.
+** **doc-code**: Generate a jsdoc documentation by jsdoc doc comment annotations. You can change the source folder via: `global.config.files.doc.src.webservice`.
+* Markdown
+** **doc-markdown-readme**: Update a project's readme file and append a toc to it.
+** **doc-markdown-github-pages**: Create jsdoc documentation, convert it to Markdown and copy it to `./docs-gh/` for importing them into the project's github wiki.
+** **doc-markdown**: Execute all `doc-markdown-*` tasks.
 * **all**: Run tasks _doc-api_ and _doc-code_.
 * **watch**: Same tasks as in _all_, but also watch for file changes.
 
