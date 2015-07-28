@@ -1,3 +1,7 @@
+# HEAD
+
+- Fixed task `doc-markdown-github-pages`.
+
 # 1.0.8
 
 - Renamed `documentation/doctoc.js` to `documentation/md-doctoc.js`
