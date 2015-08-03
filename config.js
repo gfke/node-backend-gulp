@@ -16,6 +16,8 @@ var defaultConfig = {
             './config/**/*.js'
         ],
         testConfig: './test/prepare-tests.js',
+        jscsrc: __dirname + '/.jscsrc',
+        jshintrc: __dirname + '/.jshintrc',
         doc: {
             src: {
                 api: './source/controllers/',
