@@ -1,6 +1,7 @@
-# HEAD
+# 1.0.9
 
 - Fixed task `doc-markdown-github-pages`.
+- Adjusted code-quality tasks `jshint`, `jscs` and `all` to load their proper config files.
 
 # 1.0.8
 
