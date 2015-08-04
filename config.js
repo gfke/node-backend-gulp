@@ -29,8 +29,8 @@ var defaultConfig = {
                 gh_classes: './docs-gh/classes/'
             },
             bin: {
-                jsdoc: 'node_modules/.bin/jsdoc',
-                doctoc: 'node_modules/.bin/doctoc'
+                jsdoc: __dirname + '/node_modules/.bin/jsdoc',
+                doctoc: __dirname + '/node_modules/.bin/doctoc'
             }
         },
         gulpConfig: './node_modules/node-backend-gulp/',
