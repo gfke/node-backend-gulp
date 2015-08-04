@@ -1,3 +1,7 @@
+# 1.0.10
+
+- Updated tasks to generate documentation.
+
 # 1.0.9
 
 - Fixed task `doc-markdown-github-pages`.
