@@ -1,8 +1,8 @@
 'use strict';
 
-var gulp = require('gulp'),
-    nsp  = require('gulp-nsp'),
-    fs   = require('fs');
+var gulp    = require('gulp'),
+    gulpNSP = require('gulp-nsp'),
+    fs      = require('fs');
 
 /**
  * Check if a file exists.
@@ -22,25 +22,19 @@ var checkIfFileExists = function (fileName, callbackSuccess, callbackError) {
     });
 };
 
-/**
- * Start the package checks using nsp
- *
- * @param {string}   fileName Load this file (package.json, npm-shrinkwrap.json) and check their modules/dependencies.
- * @param {function} callback Execute this callback handler after check is done.
- */
-var startNspChecks = function (fileName, callback) {
-    nsp({
-        path: fileName,
-        stopOnError: false
-    }, callback);
-};
-
 // Check the project's "package.json"
 module.exports = gulp.task('nsp-package', function (cb) {
     checkIfFileExists(
         global.config.files.package,
         function () {
-            startNspChecks(global.config.files.package, cb);
+            gulpNSP(
+                {
+                    package: global.config.files.package,
+                    output: 'summary',
+                    stopOnError: false
+                },
+                cb
+            );
         },
         cb
     );
@@ -51,7 +45,15 @@ module.exports = gulp.task('nsp-shrinkwrap', function (cb) {
     checkIfFileExists(
         global.config.files.shrinkwrap,
         function () {
-            startNspChecks(global.config.files.shrinkwrap, cb);
+            gulpNSP(
+                {
+                    package: global.config.files.package,
+                    shrinkwrap: global.config.files.shrinkwrap,
+                    output: 'summary',
+                    stopOnError: false
+                },
+                cb
+            );
         },
         cb
     );

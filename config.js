@@ -34,8 +34,8 @@ var defaultConfig = {
             }
         },
         gulpConfig: './node_modules/node-backend-gulp/',
-        package: './package.json',
-        shrinkwrap: './npm-shrinkwrap.json',
+        package: process.cwd() + '/package.json',
+        shrinkwrap: process.cwd() + '/npm-shrinkwrap.json',
         readme: './README.md'
     }
 };
