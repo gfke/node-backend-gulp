@@ -1,3 +1,7 @@
+# 1.1.0
+
+- Update dependencies to their latest version to reduce security issues.
+
 # 1.0.10
 
 - Updated tasks to generate documentation.
