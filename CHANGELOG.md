@@ -1,4 +1,4 @@
-# HEAD
+# 1.1.1
 
 - Fix file name typo in task `jscs`.
 
