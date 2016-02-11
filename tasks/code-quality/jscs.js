@@ -6,6 +6,6 @@ var gulp = require('gulp'),
 module.exports = gulp.task('jscs', function() {
     return gulp.src([].concat(global.config.files.src, global.config.files.config))
         .pipe(jscs({
-            configPath: global.config.files.jscs
+            configPath: global.config.files.jscsrc
         }));
 });
