@@ -1,3 +1,7 @@
+# 1.1.1
+
+- Fix file name typo in task `jscs`.
+
 # 1.1.0
 
 - Update dependencies to their latest version to reduce security issues.
