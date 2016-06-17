@@ -18,6 +18,14 @@ module.exports = gulp.task('doc-code', function (cb) {
     }
     catch (ex) {}
 
+    // Check if the target directory exists
+    try {
+        fs.lstatSync(global.config.files.doc.dest.api);
+    }
+    catch (ex) {
+        mkdirp.sync(global.config.files.doc.dest.api);
+    }
+
     if (runJSDoc) {
         //NOTICE: native solution over "gulp-jsdoc", because the "gulp-jsdoc" package is not up to date
 
