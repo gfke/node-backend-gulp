@@ -39,7 +39,7 @@
     "gulp-jshint": "^2.0.0",
     "gulp-mocha": "^2.2.0",
     "gulp-notify": "^2.2.0",
-    "gulp-nsp": "^2.3.0",
+    "gulp-nsp": "^2.4.0",
     "gulp-rename": "^1.2.2",
     "gulp-shell": "^0.5.2",
     "gulp-spawn-mocha": "^2.2.2",
