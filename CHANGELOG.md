@@ -1,3 +1,8 @@
+# HEAD
+
+- Create directory `doc/` if it does not exist yet.
+- Update shrinkwrap and `gulp-nsp`.
+
 # 1.1.2
 
 - Fix of task `doc-api`.
