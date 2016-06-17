@@ -1,4 +1,4 @@
-# HEAD
+# 1.1.3
 
 - Create directory `doc/` if it does not exist yet.
 - Update shrinkwrap and `gulp-nsp`.
